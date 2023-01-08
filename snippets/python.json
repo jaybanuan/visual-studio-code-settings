@@ -1,6 +1,14 @@
 {
 	// Open command pallet ([crtl] + [shift] + P), select "Snippets: Configure User Snippets" and select "python.json"
 
+	"python-main": {
+		"prefix": "python-main",
+		"body": [
+			"if __name__ == '__main__':",
+			"    ${1:main}()"
+		],
+		"description": "Python: main"
+	},
 	"python-open-file-to-read-as-text": {
 		"prefix": "python-open-file-to-read-as-text",
 		"body": [
